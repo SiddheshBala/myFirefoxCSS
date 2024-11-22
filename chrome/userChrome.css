@@ -1,0 +1,28 @@
+/* Import your desired components first */
+@import url(hacks/button_effect_scale_onclick.css);
+@import url(hacks/hide_toolbox_top_bottom_borders.css);
+
+@import url(hacks/custom_menupopup_check_icons.css); 
+
+/*Import hacks */
+@import url(hacks/sideberyModsLEFT.css); 
+@import url(hacks/menuShow.css); 
+/* @import url(hacks/darkContextMenu.css); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); */
+
+
+:root { 
+--tabs-border-color: transparent !important; 
+font-family: "Open Sans" !important;
+}
+ 
+/* #urlbar, #searchbar .searchbar-textbox {
+  font-family: "Open Sans" !important; font-size: 12pt 
+}
+*/
+
+#TabsToolbar, #sidebar-header, #sidebar-splitter {
+  display: none;
+}
+/* note: if your minimize, exit, etc menu is gone, press alt, right click the menu bar and check mark it */
